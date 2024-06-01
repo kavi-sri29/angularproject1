@@ -1,0 +1,29 @@
+<p>middle works!</p>
+
+<p>
+    Counter Value from Middle: {{_maths.Counter}}
+</p>
+
+<button (click)="onmiddleIncrement()">Increment</button>
+
+<div>
+    <input type="text" class="form-control" [(ngModel)]="bookName"/>
+</div>
+
+<div>
+    <p>Book Id: {{bookId}}</p>
+    <br>
+    <p>Book Name: {{bookName}}</p>
+    <br>
+    <p>Author: {{author}}</p>
+    <br>
+    <p>Book Status: {{bookStatus}}</p>
+    <br>
+</div>
+
+<div>
+    <button class="btn btn-success" [disabled]="btnToggle" (click)="onToggle()">Toggle</button>
+</div>
+
+
+<p>{{subject}}</p>
